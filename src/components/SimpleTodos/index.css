@@ -1,31 +1,38 @@
-/* Write your CSS here */
 .app-container {
   background-color: #ffc2a0;
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px;
-  font-family: 'Roboto';
-}
-
-.todos-container {
-  background-color: #ffffff;
   padding: 30px;
-  border-radius: 12px;
-  width: 100%;
-  max-width: 500px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Roboto", sans-serif;
 }
 
 .heading {
-  color: #ff8542;
   text-align: center;
+  color: #000000;
   font-size: 32px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
-.todos-list {
-  list-style-type: none;
-  padding-left: 0;
+.add-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-right: 10px;
+  flex: 1;
+  max-width: 300px;
+  outline: none;
+}
+
+.add-btn {
+  background-color: #ff8542;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
 }
